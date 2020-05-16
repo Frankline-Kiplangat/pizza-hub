@@ -24,7 +24,7 @@ Frankline-Kiplangat : https://github.com/Frankline-Kiplangat
 * Contribute and push your changes to your newly created repository.
 
 ## Contact information
-If you have any query, kindly contact me via email: kipfrankline@gmail.com
+If you have any query, kindly contact me via email: [kipfrankline@gmail.com]
 ## License 
 * MIT LIcense
 * Copyright &copy Frankline Kiplangat || 2020
