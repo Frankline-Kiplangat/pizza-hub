@@ -2,5 +2,30 @@ body{
     background-image: url("../images/pizza1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
+
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+nav>ul>li{
+    display: inline-flex;
+    color: blue;
+    text-align: center;
+    font-size: x-large;
+    margin-top: auto;
+  }
+  header{
+    text-decoration:none;
+    word-spacing: 20px;
+    top:0;
+    left:0;
+    right: 0;
+    display:flex;
+    position: fixed;
+    height: 50px;
+    background-color: aliceblue;
+  }
