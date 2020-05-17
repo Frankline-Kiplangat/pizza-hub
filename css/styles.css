@@ -19,7 +19,7 @@ nav>ul>li{
     font-size: x-large;
     margin-top: auto;
   }
-  header{
+  /* .nav{
     text-decoration:none;
     word-spacing: 20px;
     top:0;
@@ -29,6 +29,11 @@ nav>ul>li{
     position: fixed;
     height: 60px;
     background-color: aliceblue;
+  } */
+  .image1{
+      border-radius: 50%;
+      height: 400px;
+      width: 400px;
   }
   .home{
       text-align: center;
@@ -36,12 +41,12 @@ nav>ul>li{
       padding-top: 500px;
       float: left;
   }
-  
+/*   
   footer{
       text-align: center;
       float: 400px right;
       padding-top: 5px;
-  }
+  } */
   h2{
     font-family: 'Architects Daughter', cursive;
     color: coral;
@@ -83,12 +88,7 @@ h1{
     color: chocolate;
     text-shadow: 3px 3px 5px black;
 }
-.home{
-    background-image: url("https://bit.ly/2tgdS1x");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 350px;
-}
+
 #about{
     text-align: center;
 }
@@ -226,6 +226,7 @@ p{
 .submit{
     color: coral;
     font-size: 40px;
+
 }
 button{
     color: darkgray;
