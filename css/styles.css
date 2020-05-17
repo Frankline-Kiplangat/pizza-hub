@@ -1,9 +1,10 @@
-body{
+.home-page{
     background-image: url("../images/pizza1.jpg");
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    color: ghostwhite;
-
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 0px;
 }
 
 a:link{
@@ -19,17 +20,7 @@ nav>ul>li{
     font-size: x-large;
     margin-top: auto;
   }
-  /* .nav{
-    text-decoration:none;
-    word-spacing: 20px;
-    top:0;
-    left:0;
-    right: 0;
-    display:flex;
-    position: fixed;
-    height: 60px;
-    background-color: aliceblue;
-  } */
+ 
   .image1{
       border-radius: 50%;
       height: 400px;
@@ -41,12 +32,7 @@ nav>ul>li{
       padding-top: 500px;
       float: left;
   }
-/*   
-  footer{
-      text-align: center;
-      float: 400px right;
-      padding-top: 5px;
-  } */
+
   h2{
     font-family: 'Architects Daughter', cursive;
     color: coral;
@@ -87,6 +73,7 @@ h1{
     text-align: center;
     color: chocolate;
     text-shadow: 3px 3px 5px black;
+    /* padding-top: 350px; */
 }
 
 #about{
@@ -136,6 +123,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 .small{
     padding-right: 20px;
