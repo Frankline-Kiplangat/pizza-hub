@@ -1,39 +1,4 @@
-.home-page{
-    background-image: url("../images/pizza1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    padding-top: 0px;
-}
-
-a:link{
-  text-decoration: none;
-}
-a:hover{
-  text-decoration: none;
-}
-nav>ul>li{
-    display: inline-flex;
-    color: blue;
-    text-align: center;
-    font-size: x-large;
-    margin-top: auto;
-  }
- 
-  .image1{
-      border-radius: 50%;
-      height: 400px;
-      width: 400px;
-  }
-  .home{
-      text-align: center;
-      color: azure;
-      padding-top: 500px;
-      float: left;
-  }
-
-  h2{
+h2{
     font-family: 'Architects Daughter', cursive;
     color: coral;
     font-size: 60px;
@@ -48,8 +13,7 @@ nav ul{
   overflow: hidden;
 }
 ul li{
-    display: inline;
-
+    float: left;
 }
 li a{
     display: block;
@@ -73,9 +37,13 @@ h1{
     text-align: center;
     color: chocolate;
     text-shadow: 3px 3px 5px black;
-    /* padding-top: 350px; */
 }
-
+.home{
+    background-image: url("../images/pizza1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px;
+}
 #about{
     text-align: center;
 }
@@ -119,11 +87,11 @@ p{
 #about-us{
     padding: 2%;
 }
+/* menu */
 #menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    text-align: center;
 }
 .small{
     padding-right: 20px;
@@ -210,11 +178,12 @@ p{
 .img4:hover{
     transform: scale(1.2);
     transition-delay: 0.1s;
+   
 }
+/* Form */
 .submit{
     color: coral;
     font-size: 40px;
-
 }
 button{
     color: darkgray;

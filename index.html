@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Spot</title>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <link href="css/bootstrap.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  
+  <link href="/css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Chewy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Pizza Hub</title>
 </head>
+
 <body>
-    <header>
-        <div id="container">
-        <nav>
-            <ul style="text-decoration: none;">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About-Us</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#orders">Orders</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </nav>
+  <div class="nav">
+    <h2>Pi<span>zz</span>a Hub</h2>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li>
+            <a href="#aboutus">About us</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#orders">Orders</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <section>
-    <div class="home-page">
-        <h1><strong>Welcome<br>To<br>Base Yetu<br>Pizza Hub</strong></h1>
+  </div>
+  <div class="home">
+    <h1><strong>Welcome To<br>Pizza Hub!!</strong></h1>
+  </div>
+
+ 
+      <div id="about-us" class="text-center">
+        <p><b>Karibu<span>Pizza Corner</span></b></p>
+        <p></p>
+        <div id="aboutus">
+            <h2>About-Us</h2>
+            <p>Pizza Hub is one of the most recognizable pizza joints in Nairobi.<br> Whichever
+                    way you slice it, Pizza Hub is an industry leader in the quick service pizza game.<br>
+                    Serving hot oven-fresh pizza with its signature all-natural tomato sauce<br> and using only
+                    the freshest ingredients, Pizza Inn has established itself at the top<br> of the industry
+                    industry and is easily one of the first choices in quick service pizza in Nairobi.<br>
+                    <img src="images/pizza-1209748__340.jpg" class="image1">
+                </p>
+        </div>
+      </div>
+
     </div>
-</section>
-    <div id="about">
-        <h2>About-Us</h2>
-    <p>Pizza Hub is one of the most recognizable pizza joints in Nairobi.<br> Whichever
-            way you slice it, Pizza Hub is an industry leader in the quick service pizza game.<br>
-            Serving hot oven-fresh pizza with its signature all-natural tomato sauce<br> and using only
-            the freshest ingredients, Pizza Inn has established itself at the top<br> of the industry
-            industry and is easily one of the first choices in quick service pizza in Nairobi.<br>
-            <img src="images/pizza-1209748__340.jpg" class="image1">
-        </p>
-    </div>
+
     <h1>Menu</h1>
     <div id="menu">
       <div class="small">
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="images/38E9ny6.jpeg" width="300px" height="250px"><br><br>
+              <img src="images/34p9Vo1.jpeg" width="300px" height="250px"><br><br>
             </div>
             <div class="flip-card-back">
               <h2>Small Size pizza</h2>
@@ -54,7 +76,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="images/35qu7al.jpeg" width="300px" height="250px"><br><br>
+              <img src="https://bit.ly/2PLJTWS" width="300px" height="250px"><br><br>
             </div>
             <div class="flip-card-back">
               <h2>Medium Size pizza</h2>
@@ -68,7 +90,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="images/2PLJTWS.jpeg" width="300px" height="250px">
+              <img src="images/38E9ny6.jpeg" width="300px" height="250px">
             </div>
             <div class="flip-card-back">
               <h2>Large Size pizza</h2>
@@ -78,72 +100,79 @@
         </div>
       </div>
       <div class="type">
+        <br><br><br><br><br><br><br>
         <h1>Types of Pizza</h1>
         <h2>Crispy</h2>
         <div class="img2">
-          <img src="images/2qXR0mE.jpeg" width="400px" height="300px">
+          <img src="/images/34p9Vo1.jpeg" width="300px" height="250px">
         </div>
         <h2>Stuffed Pizza</h2>
         <div class="img3">
-          <img src="images/34p9Vo1.jpeg" width="400px" height="300px">
+          <img src="images/2qXR0mE.jpeg" width="300px" height="250px">
         </div>
         <h2>Gluten-free Pizza</h2>
         <div class="img4">
-          <img src="images/2qSk0fq.jpeg" width="400px" height="300px">
+          <img src="images/2qSk0fq.jpeg" width="300px" height="250px">
         </div>
       </div>
     </div>
   </div>
-      <div class="jumbotron" id="orders">
-        <h1>Order</h1>
-        <form class="text-center" id="text-center">
-          <label>pizza Flavor</label><br>
-          <select class="flavors" id="flavor" required><br>
-            <option label="flavour">Flavor</option>
-            <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
-            <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
-            <option label="Mushrooms" value="350">Mushrooms</option>
-            <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
-            <option label="Beef pizza" value="500">Beef pizza</option>
-            <option label="Sausage pizza" value="650">Sausage pizza</option>
-          </select><br>
-          <br><label>pizza Size</label><br>
-          <select class="sizes" id="size" required><br>
-            <option label="size">Size</option>
-      <option label="Regular" value="300">Regular</option>
-      <option label="Medium" value="600">Medium</option>
-      <option label="Large" value="1200">Large</option>
-    </select><br>
-    <br><label>pizza Crust</label><br>
-    <select class="crust" id="crust" required><br>
-        <option label="crust">Crust</option>
-      <option label="Thin Crust" value="150">Thin Crust</option>
-      <option label="Thick Crust" value="200">Thick Crust</option>
-      <option label="Deep Crust" value="380">Deep Crust</option>
-      <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
-      <option label="Stuffed Crust" value="345">Stuffed Crust</option>
-    </select><br>
-    <br><label>pizza Topping</label><br>
-    <select class="toppings" id="topping" required><br>
-        <option label="topping">Topping</option>
-      <option label="Pepperoni" value="100">Pepperoni</option>
-      <option label="Mushrooms" value="300">Mushrooms</option>
-      <option label="Onions" value="120">Onions</option>
-      <option label="Sausage" value="124">Sausage</option>
-      <option label="Green peppers" value="80">Green peppers</option>
-    </select><br>
-    <br><label>Number of pizza</label><br>
-    <input value="" required placeholder="number of pieces" id="quantity"></input><br>
-    <div class="button">
-      <br><br><button type="submit" id="btn" 
-      
-      label="">submit</button>
-    </div>
-  </form>
-</div>
-<div id="contacts">
 
-</div>
-    <script src="/js/scripts.js"></script>
+        <div class="jumbotron" id="orders">
+          <h1>Order</h1>
+          <form class="text-center" id="text-center">
+            <label>pizza Flavor</label><br>
+            <select class="flavors" id="flavor" required><br>
+              <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
+              <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
+              <option label="Mushrooms" value="350">Mushrooms</option>
+              <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
+              <option label="Beef pizza" value="500">Beef pizza</option>
+              <option label="Sausage pizza" value="650">Sausage pizza</option>
+            </select><br>
+            <br><label>pizza Size</label><br>
+            <select class="sizes" id="size" required><br>
+        <option label="Regular" value="300">Regular</option>
+        <option label="Medium" value="600">Medium</option>
+        <option label="Large" value="1200">Large</option>
+      </select><br>
+      <br><label>pizza Crust</label><br>
+      <select class="crust" id="crust" required><br>
+        <option label="Thin Crust" value="150">Thin Crust</option>
+        <option label="Thick Crust" value="200">Thick Crust</option>
+        <option label="Deep Crust" value="380">Deep Crust</option>
+        <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
+        <option label="Stuffed Crust" value="345">Stuffed Crust</option>
+      </select><br>
+      <br><label>pizza Topping</label><br>
+      <select class="toppings" id="topping" required><br>
+        <option label="Pepperoni" value="100">Pepperoni</option>
+        <option label="Mushrooms" value="300">Mushrooms</option>
+        <option label="Onions" value="120">Onions</option>
+        <option label="Sausage" value="124">Sausage</option>
+        <option label="Green peppers" value="80">Green peppers</option>
+      </select><br>
+      <br><label>Number of pizza</label><br>
+      <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+      <div class="button">
+        <br><br><button type="submit" id="btn" 
+        
+        label="">submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="card-footer" id="contacts">
+    <h2>Contacts</h2>
+    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+   <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+   <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>
+  </div>
+  </div>
+  <script src="/js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </body>
+
 </html>
