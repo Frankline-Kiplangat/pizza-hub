@@ -1,3 +1,8 @@
+body{
+    background-image: url("../images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h2{
     font-family: 'Architects Daughter', cursive;
     color: coral;
@@ -17,7 +22,7 @@ ul li{
 }
 li a{
 display: block;
-  color: rgb(187, 157, 146);
+  color: rgb(255, 253, 253);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,31 +33,48 @@ li a:hover{
 }
 .nav{
     border: 3px 3px transparent;
-    box-shadow: 5px 5px 10px rgb(218, 160, 226);
     position: relative;
     height: 70px;
+    position: fixed;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#contacts{
+    text-align: center;
 }
 h1{
     font-family: 'Architects Daughter', cursive;
     font-size: 70px;
     text-align: center;
-    color: chocolate;
+    color: rgb(248, 243, 240);
     text-shadow: 3px 3px 5px black;
 }
 .home{
     background-image: url("../images/pizza1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 450px;
+    padding: 400px;
 }
 #about{
     text-align: center;
-    padding: 50px;
-}
-p{
-    color:chocolate;
+    padding: 150px;
 }
 
+
+p{
+    color:rgb(248, 247, 246);
+}
+#menu p{
+    color: coral;
+    font-size: large;
+}
+.img1{
+    border-radius: 20%;
+}
+.home> h1{
+    color: rgb(240, 224, 240);
+    padding-top: 0px;
+}
 #img1{
     margin-right: 3%; 
     overflow: hidden;
@@ -62,7 +84,6 @@ p{
 }
 
 #img1:hover{
-    box-shadow: 0 0 4px 3px;
     transition: 0.5s;
 }
 
