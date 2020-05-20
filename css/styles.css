@@ -16,7 +16,7 @@ ul li{
     float: left;
 }
 li a{
-    display: block;
+display: block;
   color: rgb(187, 157, 146);
   text-align: center;
   padding: 14px 16px;
@@ -30,6 +30,7 @@ li a:hover{
     border: 3px 3px transparent;
     box-shadow: 5px 5px 10px rgb(218, 160, 226);
     position: relative;
+    height: 70px;
 }
 h1{
     font-family: 'Architects Daughter', cursive;
@@ -42,10 +43,11 @@ h1{
     background-image: url("../images/pizza1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 350px;
+    padding: 450px;
 }
 #about{
     text-align: center;
+    padding: 50px;
 }
 p{
     color:chocolate;
@@ -85,9 +87,10 @@ p{
 }
 
 #about-us{
-    padding: 2%;
+    padding: 10%;
+    color: black;
+
 }
-/* menu */
 #menu{
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +103,7 @@ p{
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 200px;
+    height: 250px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; 
 }
@@ -139,7 +142,6 @@ p{
     transition-duration: 0.2s;
   }
   .img2:hover{
-    box-shadow: 0 0 4px 3px;
     transition: 0.5s;
 }
 
@@ -153,7 +155,6 @@ p{
    
 }
 .img3:hover{
-    box-shadow: 0 0 4px 3px;
     transition: 0.5s;
 }
 
@@ -167,7 +168,6 @@ p{
    
 }
 .img4:hover{
-    box-shadow: 0 0 4px 3px;
     transition: 0.5s;
 }
 
@@ -180,7 +180,6 @@ p{
     transition-delay: 0.1s;
    
 }
-/* Form */
 .submit{
     color: coral;
     font-size: 40px;
