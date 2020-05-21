@@ -65,6 +65,7 @@ h1{
 
 p{
     color:rgb(248, 247, 246);
+    text-align: center;
 }
 #menu p{
     color: coral;
@@ -168,13 +169,13 @@ p{
     transition: 0.5s;
 }
 
-.img2 img{
+.img2{
     border-radius: 10px;
 }
 
 .img2:hover{
     transform: scale(1.2);
-    transition-delay: 0.1s;
+    transition: 0.1s;
    
 }
 .img3:hover{
