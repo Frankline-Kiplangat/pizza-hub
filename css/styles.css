@@ -32,13 +32,13 @@ li a:hover{
     text-decoration: none;
 }
 .nav{
-    border: 3px 3px transparent;
+    border: 3px 3px;
     position: relative;
     height: 70px;
-    position: fixed;
+    position: relative;
     font-size: xx-large;
     font-weight: bolder;
-    
+    height: 70px;
 }
 #contacts{
     text-align: center;
