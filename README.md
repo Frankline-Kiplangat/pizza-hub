@@ -14,10 +14,10 @@ Frankline-Kiplangat : https://github.com/Frankline-Kiplangat
 ## Behaviour Driven Development
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Enter your name  |   Maratah Njoroge |     |
-| Enter your Email Address  | maratah7@gmail.com |   |
-| Enter your message or comment   |  I would love to work with you     |     |
-| Press Submit|     |Pop up "Maratah Njoroge , we have received your message. Thank you for reaching out to us.|
+| Press Submit|     |Pop up "Your chareges for pizza is ...|
+| prompt "Enter your Email Address"  | kipfrankline@gmail.com |   |
+| prompt "Enter your phone number"  | 0724375662 |   |
+| Enter your location   |  Jogoo Road-Uchumi     |  pop up "Your pizza will be delivered"   |
 
 ## Link to live site
 https://frankline-kiplangat.github.io/pizza-hub/
