@@ -11,6 +11,13 @@ Frankline-Kiplangat : https://github.com/Frankline-Kiplangat
 * JQuery
 * Bootstrap
 * Google fonts
+## Behaviour Driven Development
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
+|  Enter your name  |   Maratah Njoroge |     |
+| Enter your Email Address  | maratah7@gmail.com |   |
+| Enter your message or comment   |  I would love to work with you     |     |
+| Press Submit|     |Pop up "Maratah Njoroge , we have received your message. Thank you for reaching out to us.|
 
 ## Link to live site
 https://frankline-kiplangat.github.io/pizza-hub/
