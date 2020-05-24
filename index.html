@@ -118,17 +118,20 @@
     <section>
       <div class="type">
         <h1>Types of Pizza</h1>
+        <br>
         <h2>Crispy</h2>
         <div class="img2">
-          <img src="images/38E9ny6.jpeg" width="300px" height="250px">
+          <img src="images/38E9ny6.jpeg" width="250px" height="250px">
         </div>
+        <br>
         <h2>Stuffed Pizza</h2>
         <div class="img3">
-          <img src="images/2qXR0mE.jpeg" width="300px" height="250px">
+          <img src="images/2qXR0mE.jpeg" width="250px" height="250px">
         </div>
+        <br>
         <h2>Gluten-free Pizza</h2>
         <div class="img4">
-          <img src="images/2qSk0fq.jpeg" width="300px" height="250px">
+          <img src="images/2qSk0fq.jpeg" width="250px" height="250px">
         </div>
       </div>
     </div>
@@ -176,9 +179,9 @@
       <br><label>Number of pizza</label><br>
       <input value="" required placeholder="number of pizza" id="quantity"></input><br>
       <div class="button">
-        <br><br><button type="submit" id="btn" 
-        
-        label="">submit</button>
+        <br>
+        <button type="submit" id="button" class="btn btn-primary col-md-1">SUBMIT</button>
+
       </div>
     </form>
   </div>
@@ -186,14 +189,28 @@
 <section>
   <div class="card-footer" id="contacts">
     <h2>Contacts</h2>
-    <p>Feel free to reach out to us on: +254711234567<br>
+   <p>Send us a message or comment</p>
+   <form id="message-form">
+    <div class="form-group form-inline">
+      <input type="text" class="form-control" placeholder = "Name..." name="input1" id="input1" size="25" required>
+      <input type="email" class="form-control"  placeholder = "Email..."  name="input2" id="input2" size="25" value="" required>
+    </div>
+    <div class="form-group">
+      <textarea class="form-control" rows="7" id="comment" placeholder = "Write message or comment..."></textarea>
+    </div>
+    <button type="submit" id="button" class="btn btn-primary col-md-1">SEND</button>
+  </form>
+  <br>
+  <p>Feel free to reach out to us on: +254711234567<br>
     Email: pizzahub@gmail.com</p>
     <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
     <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
    <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>
+  
   </div>
   </div>
+
   </section>
   <footer>&copy Pizza Hub || 2020</footer>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
