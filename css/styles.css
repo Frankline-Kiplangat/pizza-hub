@@ -118,7 +118,8 @@ p{
 
 }
 .type{
-    column-count: 3;
+    display: grid;
+    text-align: center;
 }
 #menu{
     display: flex;
