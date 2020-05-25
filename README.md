@@ -11,6 +11,13 @@ Frankline-Kiplangat : https://github.com/Frankline-Kiplangat
 * JQuery
 * Bootstrap
 * Google fonts
+## Behaviour Driven Development
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
+| Press Submit|     |Pop up "Your chareges for pizza is ...|
+| prompt "Enter your Email Address"  | kipfrankline@gmail.com |   |
+| prompt "Enter your phone number"  | 0724375662 |   |
+| Enter your location   |  Jogoo Road-Uchumi     |  pop up "Your pizza will be delivered"   |
 
 ## Link to live site
 https://frankline-kiplangat.github.io/pizza-hub/
