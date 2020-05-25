@@ -183,13 +183,9 @@ p{
 .img2:hover{
     transform: scale(1.2);
     transition: 0.1s;
-   
-
-.img2:hover{
-    transform: scale(1.2);
-    transition: 0.1s;  
-
 }
+
+
 .img3:hover{
     transition: 0.5s;
 }
@@ -265,7 +261,7 @@ footer{
 
 }      
 
-}    
+   
 .contact h2{
     text-align: center;
     margin-top: 30px;
